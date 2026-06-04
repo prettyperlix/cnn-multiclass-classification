@@ -1,0 +1,29 @@
+                           precision    recall  f1-score   support
+
+      Abudefduf vaigiensi       0.94      1.00      0.97        15
+   Acanthurus nigrofuscus       0.92      1.00      0.96        33
+       Amphiprion clarkii       1.00      1.00      1.00       607
+     Balistapus undulatus       1.00      1.00      1.00         6
+   Canthigaster valentini       1.00      1.00      1.00        22
+      Chaetodon lunulatus       1.00      1.00      1.00       380
+   Chaetodon trifascialis       0.93      0.97      0.95        29
+         Chromis chrysura       1.00      1.00      1.00       539
+    Dascyllus reticulatus       1.00      1.00      1.00      1817
+      Hemigymnus fasciatu       1.00      1.00      1.00        36
+    Hemigymnus melapterus       1.00      1.00      1.00         6
+          Lutjanus fulvus       1.00      1.00      1.00        31
+       Myripristis kuntee       0.97      1.00      0.99        68
+  Neoglyphidodon nigroris       0.50      0.50      0.50         2
+        Neoniphon sammara       1.00      0.98      0.99        45
+   Pempheris vanicolensis       1.00      1.00      1.00         4
+Plectroglyphidodon dickii       1.00      0.99      1.00       403
+  Pomacentrus moluccensis       0.96      1.00      0.98        27
+                 Scaridae       1.00      1.00      1.00         8
+      Scolopsis bilineata       1.00      1.00      1.00         7
+       Siganus fuscescens       1.00      1.00      1.00         4
+         Zanclus cornutus       1.00      1.00      1.00         3
+         Zebrasoma scopas       0.88      1.00      0.93        14
+
+                 accuracy                           1.00      4106
+                macro avg       0.96      0.97      0.97      4106
+             weighted avg       1.00      1.00      1.00      4106

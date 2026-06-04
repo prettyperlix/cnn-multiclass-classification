@@ -1,0 +1,153 @@
+{
+  "Abudefduf vaigiensi": {
+    "precision": 0.9285714285714286,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.896551724137931,
+    "support": 15.0
+  },
+  "Acanthurus nigrofuscus": {
+    "precision": 0.4126984126984127,
+    "recall": 0.7878787878787878,
+    "f1-score": 0.5416666666666666,
+    "support": 33.0
+  },
+  "Amphiprion clarkii": {
+    "precision": 0.9950738916256158,
+    "recall": 0.9983525535420099,
+    "f1-score": 0.9967105263157895,
+    "support": 607.0
+  },
+  "Balistapus undulatus": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 6.0
+  },
+  "Canthigaster valentini": {
+    "precision": 0.5641025641025641,
+    "recall": 1.0,
+    "f1-score": 0.7213114754098361,
+    "support": 22.0
+  },
+  "Chaetodon lunulatus": {
+    "precision": 1.0,
+    "recall": 0.9973684210526316,
+    "f1-score": 0.9986824769433466,
+    "support": 380.0
+  },
+  "Chaetodon trifascialis": {
+    "precision": 0.9032258064516129,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9333333333333333,
+    "support": 29.0
+  },
+  "Chromis chrysura": {
+    "precision": 0.9752851711026616,
+    "recall": 0.9517625231910947,
+    "f1-score": 0.9633802816901409,
+    "support": 539.0
+  },
+  "Dascyllus reticulatus": {
+    "precision": 0.9795918367346939,
+    "recall": 0.9510181618051734,
+    "f1-score": 0.9650935492879084,
+    "support": 1817.0
+  },
+  "Hemigymnus fasciatu": {
+    "precision": 0.9705882352941176,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9428571428571428,
+    "support": 36.0
+  },
+  "Hemigymnus melapterus": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 6.0
+  },
+  "Lutjanus fulvus": {
+    "precision": 0.96875,
+    "recall": 1.0,
+    "f1-score": 0.9841269841269841,
+    "support": 31.0
+  },
+  "Myripristis kuntee": {
+    "precision": 0.9178082191780822,
+    "recall": 0.9852941176470589,
+    "f1-score": 0.950354609929078,
+    "support": 68.0
+  },
+  "Neoglyphidodon nigroris": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2.0
+  },
+  "Neoniphon sammara": {
+    "precision": 0.9565217391304348,
+    "recall": 0.9777777777777777,
+    "f1-score": 0.967032967032967,
+    "support": 45.0
+  },
+  "Pempheris vanicolensis": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.8888888888888888,
+    "support": 4.0
+  },
+  "Plectroglyphidodon dickii": {
+    "precision": 0.9679802955665024,
+    "recall": 0.9751861042183623,
+    "f1-score": 0.9715698393077874,
+    "support": 403.0
+  },
+  "Pomacentrus moluccensis": {
+    "precision": 0.9642857142857143,
+    "recall": 1.0,
+    "f1-score": 0.9818181818181818,
+    "support": 27.0
+  },
+  "Scaridae": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8.0
+  },
+  "Scolopsis bilineata": {
+    "precision": 0.7,
+    "recall": 1.0,
+    "f1-score": 0.8235294117647058,
+    "support": 7.0
+  },
+  "Siganus fuscescens": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4.0
+  },
+  "Zanclus cornutus": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3.0
+  },
+  "Zebrasoma scopas": {
+    "precision": 0.7222222222222222,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.8125,
+    "support": 14.0
+  },
+  "accuracy": 0.9646858256210423,
+  "macro avg": {
+    "precision": 0.890291545085394,
+    "recall": 0.9406692949447957,
+    "f1-score": 0.9031438474961356,
+    "support": 4106.0
+  },
+  "weighted avg": {
+    "precision": 0.9712684117824373,
+    "recall": 0.9646858256210423,
+    "f1-score": 0.966845470226072,
+    "support": 4106.0
+  }
+}

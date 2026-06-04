@@ -1,0 +1,5 @@
+model_name,is_transfer,use_class_weights,freeze_base,fine_tune,fine_tune_at,train_time_sec,train_time_min,best_val_accuracy,best_val_loss,test_accuracy,test_macro_f1,test_weighted_f1
+Custom CNN (Scratch),False,True,,False,,1502.99,25.05,0.9513,1.2094,0.9442,0.8517,0.9498
+MobileNet (Scratch),False,True,,False,,2493.65,41.56,0.9657,3.7012,0.9647,0.9031,0.9668
+ResNet50 (Transfer Learning),True,True,True,True,50,1906.01,31.77,0.9934,1.3284,0.9956,0.9674,0.9957
+InceptionV3 (Transfer Learning),True,True,True,True,50,1427.35,23.79,0.9722,1.6704,0.9759,0.9317,0.9776

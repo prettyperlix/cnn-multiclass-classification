@@ -1,22 +1,50 @@
-"""
-Configuration parameters for the Deep Learning project.
-"""
 import os
 
-# Dataset paths - UPDATE THIS TO YOUR DATASET FOLDER
 BASE_DIR = "fish_image" 
 
-# Hyperparameters
-IMG_HEIGHT = 224
-IMG_WIDTH = 224
-BATCH_SIZE = 32  # Keep it at 16 or 32 to avoid Out of Memory (OOM) errors
-LEARNING_RATE = 0.001
-EPOCHS = 50      # High number, but Early Stopping will halt it when optimal
+IMG_HEIGHT = 160
+IMG_WIDTH = 160
+BATCH_SIZE = 32  
+LEARNING_RATE = 3e-4
+EPOCHS = 50      
 DROPOUT_RATE = 0.5
+SEED = 42
+SHUFFLE_BUFFER = 500
 
-# Model saving paths
+TRAIN_SPLIT = 0.7
+VAL_SPLIT = 0.15
+TEST_SPLIT = 0.15
+
+LABEL_SMOOTHING = 0.1
+WEIGHT_DECAY = 1e-4
+USE_FOCAL_LOSS = False  
+FOCAL_GAMMA = 2.0
+FOCAL_ALPHA = 0.25
+
+USE_DATA_AUGMENTATION = True
+AUGMENTATION_ROTATION = 0.08
+AUGMENTATION_ZOOM = 0.15
+AUGMENTATION_CONTRAST = 0.1
+
+MOBILENET_ALPHA = 0.75
+MOBILENET_DROPOUT = 0.0
+MOBILENET_LEARNING_RATE = 5e-4
+MOBILENET_LABEL_SMOOTHING = 0.0
+MOBILENET_USE_CLASS_WEIGHTS = True
+
+USE_MIXED_PRECISION = True
+
+TRANSFER_FREEZE_BASE = True
+FINE_TUNE = True
+FINE_TUNE_AT = 50  
+FINE_TUNE_LR = 1e-5
+FINE_TUNE_EPOCHS = 15
+
+USE_CLASS_WEIGHTS = True
+MAX_CLASS_WEIGHT = 10.0
+
 MODELS_DIR = "models"
-os.makedirs(MODELS_DIR, exist_ok=True) # Creates the folder if it doesn't exist
+os.makedirs(MODELS_DIR, exist_ok=True) 
 
 CUSTOM_CNN_PATH = os.path.join(MODELS_DIR, "custom_cnn.keras")
 MOBILENET_PATH = os.path.join(MODELS_DIR, "mobilenet_scratch.keras")
