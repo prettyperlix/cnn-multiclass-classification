@@ -145,7 +145,7 @@ def main():
     _write_summary_csv(results_summary, summary_path)
 
     print(f"\n" + "="*50)
-    print("   FINAL TRAINING TIME COMPARISON")
+    print("   Comparacion de tiempos finales")
     print("="*50)
     for row in results_summary:
         print(f"{row['model_name']:<35}: {row['train_time_min']:.2f} minutes")

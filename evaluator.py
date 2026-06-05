@@ -44,7 +44,7 @@ def plot_learning_curves(history, model_name: str):
     plt.close()
 
 def evaluate_per_class_error(model, val_data, class_names, model_name: str):
-    print(f"\nEvaluating Per-Class Error for {model_name}...")
+    print(f"\nEvaluando error por clase de {model_name}...")
     y_true = []
     y_pred_probs = []
 
@@ -73,7 +73,7 @@ def evaluate_per_class_error(model, val_data, class_names, model_name: str):
         output_dict=True
     )
 
-    print("\nClassification Report:")
+    print("\nReporte de clasificacion:")
     print(report_text)
 
     cm = confusion_matrix(y_true, y_pred, labels=labels)
